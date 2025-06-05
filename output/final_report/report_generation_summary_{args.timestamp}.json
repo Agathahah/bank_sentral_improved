@@ -1,0 +1,13 @@
+{
+  "generation_timestamp": "2025-06-03T08:33:33.544858",
+  "reports_generated": {
+    "html_report": "output/final_report/final_comprehensive_report_{args.timestamp}.html",
+    "markdown_report": "output/final_report/final_comprehensive_report_{args.timestamp}.md"
+  },
+  "data_sources": {
+    "annotation_quality": "output/annotation_quality",
+    "preprocessing_analysis": "output/preprocessing_analysis",
+    "sentiment_results": "output/sentiment_analysis",
+    "multidimensional_results": "output/multidimensional_analysis"
+  }
+}

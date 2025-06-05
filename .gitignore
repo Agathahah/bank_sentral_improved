@@ -15,11 +15,11 @@ pip-delete-this-directory.txt
 .ipynb_checkpoints
 
 # Data files (jika berisi data sensitif)
-*.csv
-*.xlsx
-*.json
-data/
-datasets/
+# *.csv
+# *.xlsx
+# *.json
+# data/
+# datasets/
 
 # Model files
 *.pkl
