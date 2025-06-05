@@ -1,0 +1,134 @@
+
+ANALISIS MULTIDIMENSIONAL KOMUNIKASI BANK SENTRAL
+=================================================
+
+Laporan ini memberikan analisis komprehensif terhadap efektivitas berbagai fitur 
+komunikasi Bank Sentral berdasarkan empat dimensi utama: Clarity, Comprehensiveness, 
+Consistency, dan Sentiment.
+
+1. RINGKASAN EKSEKUTIF
+=====================
+
+Analisis dilakukan terhadap 816 dokumen komunikasi Bank Sentral
+dengan menggunakan teknik machine learning dan analisis statistik lanjutan.
+
+Temuan Utama:
+- Dimensi komunikasi yang paling berpengaruh: word_count
+- Jumlah cluster optimal: 2
+- Variance dijelaskan oleh 2 komponen utama: 46.10%
+
+2. ANALISIS CLARITY (KEJELASAN)
+==============================
+
+Metrik yang digunakan:
+- Flesch Reading Ease Score
+- Flesch-Kincaid Grade Level  
+- SMOG Index
+- Rasio kata kompleks
+
+Hasil:
+- Skor kejelasan rata-rata: 17.76
+- Tingkat kejelasan: Sulit
+
+3. ANALISIS COMPREHENSIVENESS (KELENGKAPAN)
+==========================================
+
+Metrik yang digunakan:
+- Coverage terminologi ekonomi per kategori
+- Kepadatan informasi
+- Diversitas leksikal
+
+Hasil:
+- Coverage terminologi ekonomi: 22.47%
+- Monetary Policy: 26.94%
+- Banking: 32.01%
+- Interest Rates: 15.88%
+- Exchange Rates: 21.27%
+- Economic Indicators: 19.07%
+- Financial Markets: 18.77%
+
+4. ANALISIS CONSISTENCY (KONSISTENSI)
+====================================
+
+Metrik yang digunakan:
+- Cosine similarity antar dokumen
+- Konsistensi terminologi
+- Stabilitas pesan
+
+Hasil:
+- Skor konsistensi rata-rata: 0.179
+- Tingkat konsistensi: Kurang Konsisten
+
+5. ANALISIS SENTIMENT
+====================
+
+Metrik yang digunakan:
+- Distribusi sentimen (Positif, Netral, Negatif)
+- Confidence score
+- Sentiment strength
+
+Hasil:
+- Positif: 585 dokumen (71.7%)
+- Netral: 164 dokumen (20.1%)
+- Negatif: 67 dokumen (8.2%)
+- Confidence rata-rata: 0.973
+
+6. ANALISIS KORELASI
+===================
+
+Korelasi tertinggi antar dimensi:
+- avg_similarity <-> consistency_score: 1.000
+- flesch_kincaid_grade <-> avg_sentence_length: 0.981
+- flesch_reading_ease <-> flesch_kincaid_grade: -0.963
+- word_count <-> unique_word_count: 0.963
+- flesch_kincaid_grade <-> information_density: 0.931
+
+7. SEGMENTASI KOMUNIKASI
+=======================
+
+Berdasarkan analisis clustering, komunikasi Bank Sentral dapat dikelompokkan menjadi 
+2 kategori berbeda dengan karakteristik:
+
+- Cluster 1: 758 dokumen
+- Cluster 2: 58 dokumen
+
+8. REKOMENDASI STRATEGIS
+=======================
+
+Berdasarkan analisis multidimensional, berikut adalah rekomendasi untuk meningkatkan 
+efektivitas komunikasi Bank Sentral:
+
+1. Improve Clarity
+2. Enhance Coverage
+3. Increase Consistency
+
+9. KESIMPULAN
+============
+
+Analisis multidimensional menunjukkan bahwa komunikasi Bank Sentral memiliki:
+
+- Dimensi yang paling mempengaruhi efektivitas: word_count
+- Tingkat variabilitas yang dapat dijelaskan: 55.18% (3 komponen utama)
+- Potensi segmentasi: 2 kategori komunikasi
+
+Untuk menjawab pertanyaan penelitian tentang efektivitas fitur komunikasi:
+1. Clarity: Memberikan kontribusi pada kemudahan pemahaman pesan kebijakan
+2. Comprehensiveness: Mempengaruhi kelengkapan informasi yang disampaikan
+3. Consistency: Berperan dalam membangun kredibilitas dan prediktabilitas
+4. Sentiment: Mempengaruhi persepsi dan respons pasar
+
+10. METODOLOGI
+=============
+
+Analisis ini menggunakan:
+- Principal Component Analysis (PCA) untuk reduksi dimensi
+- K-Means Clustering untuk segmentasi
+- Analisis korelasi untuk mengidentifikasi hubungan antar dimensi
+- Standardisasi dan normalisasi untuk membandingkan metrik berbeda
+- Multiple readability indices untuk mengukur clarity
+- Economic terminology coverage untuk comprehensiveness
+- Cosine similarity untuk consistency
+- Confidence-weighted sentiment analysis
+
+Data yang dianalisis: 816 dokumen komunikasi Bank Sentral
+Periode analisis: 2025-06-02

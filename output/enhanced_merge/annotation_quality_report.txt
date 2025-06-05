@@ -1,0 +1,30 @@
+
+LAPORAN KUALITAS ANOTASI (OVERLAP-AWARE)
+========================================
+
+1. STATISTIK KESELURUHAN
+   - Total Paragraf: 816
+   - Paragraf Teranotasi: 816
+   - Coverage: 100.00% if len(merged_df) > 0 else 0
+
+2. INTER-ANNOTATOR AGREEMENT
+   - Full Agreement: 85 (10.42%)
+   - Average Cohen's Kappa: 0.412
+
+3. KAPPA SCORES PER PASANGAN ANNOTATOR
+   - Annotator_1_vs_Annotator_2: 0.331
+   - Annotator_1_vs_Annotator_3: 0.492
+   - Annotator_2_vs_Annotator_3: 0.413
+
+4. DISTRIBUSI CONFIDENCE SCORE
+   - Mean: 0.973
+   - Median: 1.000
+   - Std: 0.103
+
+5. DISTRIBUSI SENTIMEN (MAJORITY)
+   - Positif: 585 (71.69%)
+   - Netral: 164 (20.10%)
+   - Negatif: 67 (8.21%)
+
+6. INTERPRETASI AGREEMENT
+   - Cohen's Kappa: 0.412 (Moderate agreement)

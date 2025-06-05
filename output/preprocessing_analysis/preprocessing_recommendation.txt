@@ -1,0 +1,36 @@
+
+REKOMENDASI PREPROCESSING
+========================
+
+Berdasarkan analisis komprehensif terhadap 5 varian preprocessing:
+
+DATA QUALITY:
+- Total paragraf: 816
+- Valid texts (>10 words): 816
+- Invalid/short texts: 0
+
+VARIANT TERBAIK: clean_only
+- Preservation Score: 0.8325988112770395
+- Comprehensive Score: 0.5411395552069819
+
+RANKING SEMUA VARIANT:
+1. clean_only: 0.541
+2. clean_no_stopwords: 0.422
+3. clean_stemmed: 0.274
+4. economic_preserved: 0.188
+5. clean_stemmed_no_stopwords: 0.185
+
+CATATAN:
+- Preservation Score: Seberapa banyak informasi asli yang dipertahankan
+- Reading Ease: Kemudahan membaca (semakin tinggi semakin mudah)
+- Comprehensive Score: Kombinasi preservation dan clarity
+
+REKOMENDASI PENGGUNAAN:
+- Untuk sentiment analysis: Gunakan variant dengan preservation score tinggi
+- Untuk readability analysis: Gunakan variant asli atau clean_only
+- Untuk topic modeling: Gunakan variant yang mempertahankan economic terms
+- Untuk machine learning: Gunakan variant terbaik berdasarkan comprehensive score
+
+PERHATIAN:
+- Reading ease scores yang sangat rendah/negatif menunjukkan teks yang sangat kompleks
+- Pertimbangkan untuk filter teks yang terlalu pendek (<10 kata) sebelum analisis

@@ -1,0 +1,36 @@
+pipeline:
+  complexity_reduction: true
+  resource_optimization: true
+  temporal_validation: true
+  modular_design: true
+
+data_processing:
+  batch_size: 100
+  parallel_processing: true
+  memory_optimization: true
+  caching_enabled: true
+
+model_validation:
+  temporal_splits: 5
+  validation_window: '6M'
+  test_window: '3M'
+  purge_gap: '1M'
+
+monitoring:
+  performance_tracking: true
+  drift_detection: true
+  alert_thresholds:
+    accuracy_drop: 0.05
+    processing_time: 300
+
+lexicon:
+  enable_contextual_rules: true
+  hybrid_weight_ml: 0.7
+  hybrid_weight_lexicon: 0.3
+  negation_window: 3
+
+temporal_analysis:
+  enable_seasonal_analysis: true
+  aggregation_frequency: 'M'
+  rolling_window_days: 90
+  change_point_detection: true

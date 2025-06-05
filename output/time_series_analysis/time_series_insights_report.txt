@@ -1,0 +1,51 @@
+
+COMPREHENSIVE TIME SERIES ANALYSIS REPORT
+=========================================
+Central Bank Communication Effectiveness Over Time
+
+EXECUTIVE SUMMARY
+================
+
+This report provides temporal analysis of central bank communication across three key dimensions:
+1. CLARITY - How easily the communication can be understood
+2. COMPREHENSIVENESS - How thoroughly economic topics are covered  
+3. SENTIMENT - The emotional tone and confidence of communication
+
+ANALYSIS RESULTS
+===============
+
+
+1. CLARITY ANALYSIS
+==================
+- Data Points: 72
+- Average Reading Ease: 18.02
+- Trend Direction: decreasing
+- Volatility (Std Dev): 4.67
+
+2. COMPREHENSIVENESS ANALYSIS
+============================
+- Data Points: 72
+- Average Economic Coverage: 24.12%
+- Trend Direction: increasing
+- Coverage Volatility: 0.065
+
+3. SENTIMENT ANALYSIS
+====================
+- Data Points: 72
+- Average Sentiment: 0.620 (-1 to 1 scale)
+- Trend Direction: increasing
+- Sentiment Volatility: 0.201
+
+
+CONCLUSION
+==========
+
+The temporal analysis reveals important patterns in central bank communication effectiveness.
+Key findings suggest that systematic monitoring and optimization of communication features
+can significantly enhance policy transmission and public understanding.
+
+Regular temporal analysis should be integrated into communication strategy development
+to ensure continuous improvement and adaptation to changing economic conditions.
+
+Generated on: 2025-06-02 15:40:14
+Analysis Period: Full dataset temporal range

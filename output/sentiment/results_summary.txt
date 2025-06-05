@@ -1,0 +1,25 @@
+SENTIMENT ANALYSIS RESULTS SUMMARY
+==================================================
+
+
+Naive_Bayes_TF-IDF:
+  CV Score: 0.8075
+  Test Score: 0.8081
+  Best Parameters: {'classifier__alpha': 0.01, 'tfidf__max_features': 3000, 'tfidf__ngram_range': (1, 1)}
+
+SVM_Linear:
+  CV Score: 0.8156
+  Test Score: 0.8071
+  Best Parameters: {'classifier__C': 1.0, 'tfidf__max_features': 5000}
+
+Random_Forest:
+  CV Score: 0.8072
+  Test Score: 0.7964
+  Best Parameters: {'classifier__max_depth': 10, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200, 'tfidf__max_features': 5000}
+
+Logistic_Regression:
+  CV Score: 0.8172
+  Test Score: 0.8496
+  Best Parameters: {'classifier__C': 10.0, 'tfidf__max_features': 5000}
+
+BEST MODEL: Logistic_Regression

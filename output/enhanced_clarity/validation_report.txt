@@ -1,0 +1,47 @@
+
+CLARITY VALIDATION REPORT
+=========================
+
+Validation Date: 2025-06-03 11:07:11
+Total Samples Tested: 5
+
+OVERALL PERFORMANCE:
+- Samples Meeting Expectations: 2
+- Success Rate: 40.0%
+
+DETAILED RESULTS:
+
+sample_1 - ✅ PASS:
+  Expected: medium clarity
+  Score: 51.0 (target: ≥50)
+  Sentence Length: 17.0 words
+  Technical Density: 32.4%
+  Word Count: 34
+
+sample_2 - ✅ PASS:
+  Expected: low clarity
+  Score: 49.8 (target: ≥30)
+  Sentence Length: 27.0 words
+  Technical Density: 29.6%
+  Word Count: 27
+
+sample_3 - ❌ FAIL:
+  Expected: high clarity
+  Score: 43.5 (target: ≥70)
+  Sentence Length: 7.5 words
+  Technical Density: 40.0%
+  Word Count: 15
+
+sample_4 - ❌ FAIL:
+  Expected: high clarity
+  Score: 45.4 (target: ≥70)
+  Sentence Length: 9.0 words
+  Technical Density: 44.4%
+  Word Count: 9
+
+sample_5 - ❌ FAIL:
+  Expected: medium clarity
+  Score: 48.5 (target: ≥50)
+  Sentence Length: 24.0 words
+  Technical Density: 45.8%
+  Word Count: 24

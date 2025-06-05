@@ -1,0 +1,61 @@
+
+ANALISIS DENGAN IMPLEMENTASI REKOMENDASI
+========================================
+
+1. DATA FILTERING
+-----------------
+- Total data: 816 rows
+- Confidence threshold: 0.7
+- High confidence data: 759 rows (93.0%)
+- Low confidence data: 57 rows (7.0%)
+
+2. CLASS DISTRIBUTION (High Confidence Data)
+-------------------------------------------
+- Positif: 556 (73.3%)
+- Netral: 142 (18.7%)
+- Negatif: 61 (8.0%)
+
+Imbalance ratio: 9.11:1
+
+3. RECOMMENDED PIPELINE
+----------------------
+a) Data Preparation:
+   - Use high confidence data (confidence >= 0.7)
+   - Focus on 'processed_clean_only' text variant
+   - Filter texts with minimum 5 words
+
+b) Class Balancing:
+   - Apply SMOTE to handle imbalance
+   - Use stratified train/test split
+   - Consider class weights in models
+
+c) Model Training:
+   - Use ensemble methods for robustness
+   - Cross-validate with stratified folds
+   - Monitor performance per class
+
+d) Evaluation:
+   - Focus on F1-score (weighted and per class)
+   - Check performance on low confidence data
+   - Analyze misclassifications
+
+4. IMPLEMENTATION CODE
+---------------------
+```python
+# Filter by confidence
+high_conf_data = df[df['Confidence_Score'] >= 0.7]
+
+# Prepare for sentiment analysis
+X = high_conf_data['processed_clean_only']
+y = high_conf_data['Sentimen_Majority']
+
+# Stratified split
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, stratify=y, random_state=42
+)
+
+# Apply SMOTE (after vectorization)
+from imblearn.over_sampling import SMOTE
+smote = SMOTE(random_state=42)
+X_train_balanced, y_train_balanced = smote.fit_resample(X_train_vec, y_train)
+```

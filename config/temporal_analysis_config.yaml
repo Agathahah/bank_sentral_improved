@@ -1,0 +1,16 @@
+time_series:
+  default_frequency: 'M'  # Monthly aggregation
+  seasonal_periods: 12    # 12 months
+  trend_detection: true
+  change_point_detection: true
+  
+windows:
+  short_term: 90   # 3 months
+  medium_term: 180 # 6 months  
+  long_term: 365   # 1 year
+
+analysis_types:
+  - trend_analysis
+  - seasonal_decomposition
+  - volatility_analysis
+  - consistency_tracking
