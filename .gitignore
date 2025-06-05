@@ -1,44 +1,8 @@
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.pyc
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Data files (jika berisi data sensitif)
-# *.csv
-# *.xlsx
-# *.json
-# data/
-# datasets/
-
-# Model files
-*.pkl
-*.joblib
-models/
-
-# Environment variables
+*.pyc
 .env
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
+.venv/
 *.log
-logs/
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
