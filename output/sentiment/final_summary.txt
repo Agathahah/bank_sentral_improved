@@ -1,3 +1,0 @@
-BEST TEXT COLUMN: processed_clean_only
-BEST MODEL: Logistic_Regression
-BEST F1 SCORE: 0.8496
